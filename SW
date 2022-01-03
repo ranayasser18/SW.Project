@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Air conditioner exhibtion</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+    <form method="post">
+        <br>
+        <h1 style="text-align: center;" >Air conditioner exhibtion</h1>
+        </br>
+            <p><label>Email
+            <input type="email" required></label></p>
+            <p><label>Name
+            <input type="text" required></label></p>
+            <p><label>Phone
+            <input type="tel" required></label></p>
+            <p><label>Budget:
+                <input name="budget" type="radio" value="1000 to 2000">
+                <label>1000 to 2000</label>
+                <input name="budget" type="radio" value="3000 to 5000">
+                <label>2000 to 5000</label>
+                <input name="budget" type="radio" value="6000 to 10000" checked>
+                <label>6000 to 10000</label>
+            </label></p>
+            <label>Choose your country:
+                <select>
+                    <option>
+                        Cairo
+                    </option>
+                    <option>
+                        Mansoura
+                    </option>
+                    <option>
+                        Alex
+                    </option>
+                </select>
+            </label>
+            <p><label>Comment:
+                <textarea name="comment" cols="5" rows="2"></textarea>
+            </label></p>
+            <p><input type="checkbox" name="sub" value="sub">
+            <label>Subscibe..</label></p>   
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+    </form>
+    </body>    
+</html>
